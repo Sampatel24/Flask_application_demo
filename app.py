@@ -30,7 +30,7 @@ def math_ops():
         return render_template('results.html' , result = result)
 
 
-
+#Using Postman
 
 @app.route('/postman_action',methods=['POST'])
 def math_ops1():
